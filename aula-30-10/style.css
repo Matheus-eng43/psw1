@@ -29,3 +29,10 @@ div {
     border-radius: 15px;
     margin: 15px;
 }
+
+table, th, tr, td {
+    border: 3px solid rgb(37, 37, 95);
+    color: rgb(26, 13, 13);
+}
+
+
