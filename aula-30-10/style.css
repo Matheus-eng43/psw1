@@ -35,4 +35,17 @@ table, th, tr, td {
     color: rgb(26, 13, 13);
 }
 
+a  {
+    text-decoration: none;
+    background-color: rgb(117, 58, 172);
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: rgb(81, 25, 133);
+}
+
 
