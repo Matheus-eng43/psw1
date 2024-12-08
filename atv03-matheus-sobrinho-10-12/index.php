@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <img src="img/logo_1.png" alt="logo do site" id="img1">
+        <img src="img/logo_if.png" alt="logo do site" id="img1">
         <nav>
             <ul>
                 <li><a href="index.php" id="pose">Início</a></li>
@@ -19,7 +19,7 @@
             </ul>
         </nav>
         <div class="login">
-            <img src="img/logo_2.png" alt="logo do usuario">
+            <img src="img/usuario" alt="logo do usuario">
             <h4>Login</h4>
         </div>
     </header>
