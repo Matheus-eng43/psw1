@@ -155,7 +155,7 @@ th, td {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 105vh;
   }
 
   .container main {
@@ -163,7 +163,6 @@ th, td {
   }
 
   /* Estilização a parte do cadaluno */
-
   .d1 {
     display: inline-flex;
   }
@@ -178,16 +177,11 @@ th, td {
     display: inline-flex;
     text-align: center;
     background-color: #b6dee686;
-    padding: 200px 50px 220px 50px;
+    padding: 220px 50px 220px 50px;
     border-radius: 45px;
     justify-content: space-around;
     align-items: center;
   }
   form div {
     margin: 20px;
-  }
-  .obs { 
-    width: 215px;
-    height: 35px;
-    color: #838080;
   }

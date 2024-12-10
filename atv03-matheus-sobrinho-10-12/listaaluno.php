@@ -24,7 +24,16 @@
         </div>
     </header>
    
-    
+    <?php 
+    $nome=$_POST["name"];
+    $date=$_POST["date"]
+    $cpf=$_POST["cpf"];
+    $cidade=$_POST["cidade"];
+    $estado=$_POST["estado"];
+    $endereco=$_POST["end"];
+    $telefone=$_POST["tel"];
+    $obs=$_POST["obs"];
+    ?>
     <h2>Lista de alunos cadastrados</h2>
     <main>
     <table>
@@ -33,35 +42,39 @@
             <th>Data de nasimento</th>
             <th>CPF</th>
             <th>Cidade</th>
+            <th>Estado</th>
+            <th>Endereço</th>
             <th>Telefone</th>
-            <th>ID</th>
             <th>Observações</th>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><?php echo $nome; ?></td>
+            <td><?php echo $idade; ?></td>
+            <td><?php echo $cpf; ?></td>
+            <td><?php echo $cidade; ?></td>
+            <td><?php echo $estado; ?></td>
+            <td><?php echo $endereco; ?></td>
+            <td><?php echo $telefone; ?></td>
+            <td><?php echo $obs; ?></td>
         </tr>
         <tr>
             <td>Gabriel Jeusus</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>2</td>
+            <td>12/12/1992</td>
+            <td>923121</td>
+            <td>Xique-Xique</td>
+            <td>Bahia</td>
+            <td>Rua Bahia das Cruzes</td>
+            <td>(77)999442204</td>
             <td></td>
         </tr>
         <tr>
             <td>Neymar Júnior</td>
             <td>05/02/1992</td>
-            <td>91011</td>
+            <td>910112</td>
             <td>Mogi das Cruzes</td>
+            <td>São Paulo</td>
+            <td>Rua São Paulo das Avenidas</td>
             <td>(77)997430904</td>
-            <td>3</td>
             <td>Algumas lesões, que necessitam de atenção.</td>
         </tr>
     </table>

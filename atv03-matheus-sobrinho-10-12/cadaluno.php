@@ -45,6 +45,37 @@
                 <input type="date" class="forms" name="date" required><br>
                 <label for="frame">Cidade:</label><br>
                 <input type="text" class="forms" name="cidade" value="Digite a cidade" required><br>
+                    <label for="estado">Escolha seu estado:</label><br>
+                    <select id="estado" name="estado">
+                      <option value="">Selecione um estado</option>
+                      <option value="AC">Acre</option>
+                      <option value="AL">Alagoas</option>
+                      <option value="AP">Amapá</option>
+                      <option value="AM">Amazonas</option>
+                      <option value="BA">Bahia</option>
+                      <option value="CE">Ceará</option>
+                      <option value="DF">Distrito Federal</option>
+                      <option value="ES">Espírito Santo</option>
+                      <option value="GO">Goiás</option>
+                      <option value="MA">Maranhão</option>
+                      <option value="MT">Mato Grosso</option>
+                      <option value="MS">Mato Grosso do Sul</option>
+                      <option value="MG">Minas Gerais</option>
+                      <option value="PA">Pará</option>
+                      <option value="PB">Paraíba</option>
+                      <option value="PR">Paraná</option>
+                      <option value="PE">Pernambuco</option>
+                      <option value="PI">Piauí</option>
+                      <option value="RJ">Rio de Janeiro</option>
+                      <option value="RN">Rio Grande do Norte</option>
+                      <option value="RS">Rio Grande do Sul</option>
+                      <option value="RO">Rondônia</option>
+                      <option value="RR">Roraima</option>
+                      <option value="SC">Santa Catarina</option>
+                      <option value="SP">São Paulo</option>
+                      <option value="SE">Sergipe</option>
+                      <option value="TO">Tocantins</option>
+                    </select><br>                  
                 <label for="frame">CEP:</label><br>
                 <input type="text" class="forms" name="cep" value="Digite o CEP" required><br>
                 <label for="frame">Telefone:</label><br>
@@ -53,14 +84,13 @@
                 <input type="text" class="forms" name="e-mail" value="Digite o e-mail" required><br>
                 <label for="frame">Responsável(se não for o pai ou a mãe):</label><br>
                 <input type="text" class="forms" name="resp" value="Digite o nome do responsável" required><br>
-                <label for="frame">Observações:</label><br>
-                <input type="textArea" class="obs" name="obs" value="Digite as observações sobre o aluno" required><br>
+                <label for="frame">Observações sobre o aluno:</label><br>
+                <textarea name="obs" class="forms" placeholder="OBS:"></textarea><br>
                 <input type="submit" value="Cadastrar" class="butao">
                 <input type="reset" value="Limpar" class="butao">
             </div>
         </form>
         <img src="img/img-de-alunos.png" alt="imagem de alunos" class="imagem">
-        <img src="img/imagem-de-alunos-2.png" alt="imagem de alunos" class="imagem">
     </main>
     <footer>
         <p>&copy Copyrigth - Matheus Sobrinho 2024</p>
